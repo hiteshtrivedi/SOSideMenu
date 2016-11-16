@@ -64,7 +64,7 @@ protocol MenuDelegate {
 extension MenuVC : MenuDelegate {
     func openSegue(segueName: String, sender: AnyObject?) {
         dismissViewControllerAnimated(true){
-            //self.performSegueWithIdentifier(segueName, sender: sender)
+         
         }
     }
     func openMenu(){
